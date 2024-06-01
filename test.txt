@@ -1,0 +1,9 @@
+curl http://localhost:4000/api
+
+curl http://localhost:4000/api/todos
+
+curl -X POST -i -H "Content-type: application/json" -X POST http://localhost:4000/api/todos -d '
+{
+ "title": "Test #1"
+}'
+
